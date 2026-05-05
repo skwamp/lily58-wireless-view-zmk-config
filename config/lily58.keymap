@@ -109,7 +109,7 @@
             layers = <1>;
         };
 
-        BASE_hold_FUNC_NUM {
+        BASE_hold_FNUM_left {
             bindings = <&mo 2>;
             key-positions = <53 42>;
         };
@@ -117,6 +117,11 @@
         BASE_hold_ACTION_left {
             bindings = <&mo 1>;
             key-positions = <52 53>;
+        };
+
+        BASE_hold_FNUM_right {
+            bindings = <&mo 2>;
+            key-positions = <54 43>;
         };
     };
 
@@ -193,16 +198,16 @@
             label = "ACTION";
         };
 
-        FUNC_NUM {
+        FNUM {
             bindings = <
 &none      &kp F1   &kp F2   &kp F3     &kp F4    &kp F5                    &none   &none   &kp FSLH  &kp STAR  &kp MINUS  &none
 &none      &kp F6   &kp F7   &kp F8     &kp F9    &kp F10                   &none   &kp N7  &kp N8    &kp N9    &kp PLUS   &none
 &none      &kp F11  &kp F12  &none      &none     &none                     &none   &kp N4  &kp N5    &kp N6    &kp PLUS   &none
-&sk LSHFT  &none    &none    &none      &none     &none     &none    &none  &none   &kp N1  &kp N2    &kp N3    &kp RET    &none
-                             &sk LCTRL  &sk LGUI  &sk LALT  &none    &none  &kp N0  &none   &kp DOT
+&kt LSHFT  &none    &none    &none      &none     &none     &none    &none  &none   &kp N1  &kp N2    &kp N3    &kp RET    &none
+                             &kt LCTRL  &kt LGUI  &kt LALT  &none    &none  &kp N0  &none   &kp DOT
             >;
 
-            label = "FUNC_NUM";
+            label = "FNUM";
         };
     };
 };
