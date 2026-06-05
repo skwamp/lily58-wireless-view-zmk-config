@@ -213,6 +213,11 @@
             key-positions = <28 11>;
             layers = <0>;
         };
+
+        BASE_CapsLock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <36 49>;
+        };
     };
 
     behaviors {
